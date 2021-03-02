@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{%block content %}
+
+ <div class="slider-area">
+		<div class="slider-wrapper owl-carousel">
+			<div class="slider-item home-one-slider-otem slider-item-four slider-bg-one">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h1 class="homepage-three-title">Welcome To <span>7star</span></h1>
+								<h2>One Stop Destination for Academic Projects...</h2>
+								<div class="slider-content-btn">
+						
+									<a class="button btn btn-light btn-radius btn-brd" href="{% url 'mycontact' %}">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-two">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h1 class="homepage-three-title">Welcome To <span>7star</span></h1>
+								<h2>One Stop Destination for Academic Projects... </h2>
+								<div class="slider-content-btn">
+									
+									<a class="button btn btn-light btn-radius btn-brd" href="{% url 'mycontact' %}">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item home-one-slider-otem slider-item-four slider-bg-three">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h1 class="homepage-three-title">Welcome To <span>7star</span></h1>
+								<h2>One Stop Destination for Academic Projects...</h2>
+								<div class="slider-content-btn">
+								
+									<a class="button btn btn-light btn-radius btn-brd" href="{% url 'mycontact' %}">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>About Us</h4>
+                        <h2><i class="fa fa-smiley"></i>Welcome to 7star.</h2>
+                        We do care about your academic projects because there was a time, we spent hours in completing projects. 
+<br>
+<br>We at 7star strive to provide our clients with the best quality software. We code and test every piece of the software to ensure our clients get the best quality work. <br>Our team of young and dedicated professionals are always on the move for developing innovative projects to meet our clients' needs.<br><br>YOU DREAM. WE DESIGN.</p>
+                        <a href="#contact-us" class="btn btn-light btn-radius btn-brd grd1">Learn More</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{% static 'uploads/about_01.jpg' %}" alt="" class="img-responsive img-rounded">
+                    
+                    </div><!-- end media -->
+                </div><!-- end col -->
+         
+
+            <hr class="hr1"> 
+
+            <div class="row">
+				
+				
+                <div class="col-md-6">
+                    
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	
+    <div id="features" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Features & Overviews</h3>
+                         </div><!-- end title -->
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="testimonials" class="parallax section db parallax-off">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+              
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                              
+                            </div>
+                            <div class="testi-meta">
+                                <img src="{% static 'uploads/testi_01.png' %}" alt="" class="img-responsive alignleft">
+                                <h4>XYZ</h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                               
+                            </div>
+                            <div class="testi-meta">
+                                <img src="{% static 'uploads/testi_01.png' %} " alt="" class="img-responsive alignleft">
+                                <h4>ABC</h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    
+
+ {% endblock %}
+
+</body>
+</html>
